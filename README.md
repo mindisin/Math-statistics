@@ -1,2 +1,4 @@
-# Math-statistics
-Semester work on mathematical statistics with the Obesity dataset
+# Математическая статистика
+
+Семестровая работа с использованием набора данных по теме "Ожирение"
+Метрощенко Евы, гр. 11-207
