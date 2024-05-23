@@ -9,7 +9,6 @@ class DataInfo:
         self.sample_size: int
         self.mean: float
         self.median: float
-        self.avg_absolute_deviation: float
         self.displaced_dispersion: float
         self.no_displaced_dispersion: float
         self.quartiles: Quartiles
@@ -17,7 +16,6 @@ class DataInfo:
         self.max_value: float
         self.spread: float
         self.standard_deviation: float
-        self.asymmetry_coefficient: float
         self.interquartile_range: float
         self.mode: float
 
@@ -31,7 +29,6 @@ class DataInfo:
                 f'Дисперсия(с отклонением): {self.displaced_dispersion.__round__(round_digits_count)}\n'
                 f'Дисперсия(без отклонения): {self.no_displaced_dispersion.__round__(round_digits_count)}\n'
                 f'Стандартное отклонение: {self.standard_deviation.__round__(round_digits_count)}\n'
-                f'Среднее абсолютное отклонение: {self.avg_absolute_deviation.__round__(round_digits_count)}\n\n'
                 f'{self.quartiles}\n'
                 f'Межквартильная широта: {self.interquartile_range.__round__(round_digits_count)}\n\n'
                 f'Минимальное значение: {self.min_value.__round__(round_digits_count)}\t'
