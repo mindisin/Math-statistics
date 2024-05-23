@@ -32,10 +32,6 @@ def handle_data(data):
     mode: np.ndarray[float] = get_mode(data)
     info.mode = mode
 
-    # Среднее абсолютное отклонение
-    avg_absolute_deviation: float = sum(abs(data_item - mean) for data_item in data) / n
-    info.avg_absolute_deviation = avg_absolute_deviation
-
     # Дисперсия(с отклонением)
     displaced_dispersion = get_displaced_dispersion(data)
     info.displaced_dispersion = displaced_dispersion
@@ -74,7 +70,7 @@ def handle_data(data):
 
     info.quartiles = quartiles
 
-    # Межквартильная широта
+    # Межквартильный размах
     interquartile_range = quartiles.third_quantile - quartiles.first_quantile
     info.interquartile_range = interquartile_range
 
