@@ -45,7 +45,11 @@
 
 #### Далее на основе выбранных данных проведен алгоритм проверки гипотезы о параметрах генеральной совокупности
 
-![image](https://github.com/mindisin/Math-statistics/assets/145624113/4a84f2ab-71b0-4bfd-873d-80b6e7556699)
+![image](https://github.com/mindisin/Math-statistics/assets/145624113/d1c1167d-b6e5-4c0b-a667-f4e102f16e79)
+
+#### И также проверила гипотезу о нормальном распределении
+
+![image](https://github.com/mindisin/Math-statistics/assets/145624113/51d56b7a-c97f-450b-b218-d8f83ece9be3)
 
 
 #### В конце была построена линейная регрессия с параметрами "Age" и "Weight"
